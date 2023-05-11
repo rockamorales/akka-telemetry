@@ -5,7 +5,10 @@
 
 # sbt specific
 exercises/dist/*
-exercises/target/
+exercises/project/target/
+exercises/target/*
+exercises/project/target/**
+exercises/project/project/target/**
 exercises/lib_managed/
 exercises/src_managed/
 exercises/project/boot/
@@ -31,6 +34,8 @@ classes/
 # Dotty-IDE
 .dotty-ide-artifact
 .dotty-ide.json
+
+*.cache
 
 # Visual Studio Code
 .vscode
