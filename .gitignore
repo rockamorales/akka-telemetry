@@ -1,0 +1,36 @@
+.DS_Store
+*.class
+*.log
+*~
+
+# sbt specific
+exercises/dist/*
+exercises/target/
+exercises/lib_managed/
+exercises/src_managed/
+exercises/project/boot/
+exercises/project/plugins/project/
+exercises/project/local-plugins.sbt
+exercises/null/
+.history
+.bsp
+
+# Scala-IDE specific
+.scala_dependencies
+.cache
+.classpath
+.project
+.settings
+classes/
+
+# idea
+.idea
+.idea_modules
+/.worksheet/
+
+# Dotty-IDE
+.dotty-ide-artifact
+.dotty-ide.json
+
+# Visual Studio Code
+.vscode
